@@ -1,0 +1,25 @@
+{
+  "version": "2.0",
+  "resources": [
+    {
+      "activityDisplayName": "Send SMTP Email",
+      "activityId": "SendMail_19",
+      "resource": "Connection",
+      "key": "dc212b81-aafc-4693-97f6-ff9f4ea14c15",
+      "id": "Connectiondc212b81-aafc-4693-97f6-ff9f4ea14c15dc212b81-aafc-4693-97f6-ff9f4ea14c15False",
+      "value": {
+        "ConnectionId": {
+          "defaultValue": "dc212b81-aafc-4693-97f6-ff9f4ea14c15",
+          "isExpression": false,
+          "displayName": "Connection",
+          "description": "The connection to be used"
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.1",
+        "UseConnectionService": "True",
+        "Connector": "uipath-mail-mail"
+      }
+    }
+  ]
+}

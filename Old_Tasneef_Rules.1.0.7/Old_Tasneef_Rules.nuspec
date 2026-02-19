@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Old_Tasneef_Rules</id>
+    <version>1.0.7</version>
+    <title>Old_Tasneef_Rules</title>
+    <authors>bsol.user</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Blank Process</description>
+    <tags>VisualBasic VB UiPathStudioProcess</tags>
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="UiPath.Mail.Activities" version="2.5.0-preview" />
+        <dependency id="UiPath.Python.Activities" version="2.0.0-preview" />
+        <dependency id="UiPath.System.Activities.Runtime" version="[25.8.1]" />
+        <dependency id="UiPath.UIAutomation.Activities.Runtime" version="25.10.13" />
+        <dependency id="UiPath.Word.Activities" version="2.2.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
